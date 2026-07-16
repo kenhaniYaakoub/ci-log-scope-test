@@ -1,0 +1,7 @@
+name: Decoy Deploy
+on: workflow_dispatch
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Pretend this logs something sensitive, e.g. an internal hostname or a misconfigured secret echo."
